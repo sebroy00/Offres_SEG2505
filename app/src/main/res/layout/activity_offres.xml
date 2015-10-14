@@ -50,7 +50,7 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Nom de l&apos;entreprise"
-                android:id="@+id/textView"
+                android:id="@+id/textView1"
                 android:layout_gravity="right|top" />
         </FrameLayout>
 
