@@ -24,7 +24,7 @@
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="72dp"
-                android:id="@+id/imageButton"
+                android:id="@+id/dateButton"
                 android:src="@drawable/abc_btn_radio_to_on_mtrl_015"
                 android:layout_weight="0.07"
                 android:layout_gravity="left|center_vertical" />
