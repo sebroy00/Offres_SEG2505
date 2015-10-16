@@ -24,7 +24,7 @@
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="72dp"
-                android:id="@+id/dateButton"
+                android:id="@+id/dateButton1"
                 android:src="@drawable/mars"
                 android:layout_weight="0.07"
                 android:layout_gravity="left|center_vertical" />
@@ -75,7 +75,7 @@
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="72dp"
-                android:id="@+id/imageButton2"
+                android:id="@+id/dateButton2"
                 android:src="@drawable/juin"
                 android:layout_weight="0.07"
                 android:layout_gravity="left|center_vertical" />
@@ -85,7 +85,7 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Rockland, ON   ~15km"
-                android:id="@+id/textView4"
+                android:id="@+id/tvEmplacement2"
                 android:layout_gravity="right|bottom"
                 android:textColor="#ffffff"
                 android:textSize="14dp" />
@@ -95,7 +95,7 @@
                 android:layout_height="51dp"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Politesse, patience, bilingue, méticuleux"
-                android:id="@+id/textView5"
+                android:id="@+id/tvCompetences2"
                 android:layout_gravity="right|center_vertical"
                 android:textColor="#ffffff"
                 android:textSize="16dp"
@@ -106,7 +106,7 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Compétition de cube Rubix"
-                android:id="@+id/textView6"
+                android:id="@+id/tvTitre2"
                 android:layout_gravity="right|top"
                 android:textColor="#ffffff" />
         </FrameLayout>
