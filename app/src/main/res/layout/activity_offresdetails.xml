@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/fLayout">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ivDate"
+            android:src="@drawable/mars"
+            android:scaleType="center"
+            android:baselineAlignBottom="false"
+            android:layout_gravity="left|center_vertical" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Tournoi de golf annuel CHEO"
+            android:id="@+id/tvTitre"
+            android:layout_gravity="left|top"
+            android:typeface="normal"
+            android:textSize="28dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="303dp"
+            android:layout_height="400dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Description:\nCHEO est à la recherche de bénévoles pour le tournoi annuel au Club de golf Royal Ottawa.
+            \nDe nombreux bénévoles sont recherchés pour cet événement qui débute à 7h00 et qui se terminera vers 23h00.
+            \nIl y aura deux équipes principales de bénévoles: une sur le terrain de golf et une seconde dans la salle à manger
+            \nLes compétences recherchées sont: ponctuel, organisé, relations interpersonnelles, bilingue, passionné"
+            android:id="@+id/tvDescription"
+            android:layout_gravity="right|center_vertical" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Club de golf Royal Ottawa   ~8km"
+            android:id="@+id/tvEmplacement"
+            android:layout_gravity="center_horizontal|bottom"
+            android:gravity="right" />
+
+    </FrameLayout>
+</LinearLayout>
